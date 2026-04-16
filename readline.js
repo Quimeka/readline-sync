@@ -29,7 +29,7 @@ let question4_input = readline.question("What does the operator === mean? ");
 let answer4 = question4_input.toLowerCase();
 
 if (answer4 === "equality comparison" || answer4 === "equal") {
-    console.log("Congratulations, you've entered the correct response: " + question4_input);
+    console.log("Congratulations, you've entered the correct response: " + question4_input + "\n");
 } else {
     console.log("Incorrect. It means strict equality. You entered " + question4_input + "\n");
 }
@@ -37,7 +37,7 @@ if (answer4 === "equality comparison" || answer4 === "equal") {
 // Question 5
 let question5_input = readline.question('What does typeof "42" return? ');
 if (question5_input.toLowerCase() === "string") {
-    console.log("Congratulations, you've entered the correct response: " + question5_input);
+    console.log("Congratulations, you've entered the correct response: " + question5_input + "\n");
 } else {
-    console.log("Incorrect. The correct answer is 'string'. You entered " + question5_input);
+    console.log("Incorrect. The correct answer is 'string'. You entered " + question5_input + "\n");
 }
